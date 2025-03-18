@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Horas Extras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <h2>Calculadora de Horas Extras</h2>
+        <label for="salario">Salário Bruto Mensal:</label>
+        <input type="number" id="salario" placeholder="Digite o salário bruto"><br><br>
+        
+        <label for="horasNormais">Horas Extras (Dias Úteis):</label>
+        <input type="number" id="horasNormais" placeholder="Digite as horas extras"><br><br>
+        
+        <label for="horasFinais">Horas Extras (Finais de Semana):</label>
+        <input type="number" id="horasFinais" placeholder="Digite as horas extras"><br><br>
+        
+        <button onclick="calcularHorasExtras()">Calcular</button>
+        
+        <h3>Valor a Receber: <span id="resultado">R$ 0,00</span></h3>
+    </div>
+    
+    <script src="codigo.js"></script>
+</body>
+</html>
